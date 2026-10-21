@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fave Scents Catalogue</title>
+    </head>
+    <body>
+        <header>
+            <h1><i><b>FAVE SCENTS</b></i></h1>
+            <sub>Own your aura</sub>
+            <nav>
+                <a href="Practice Project 1l.html">Home</a>       |
+                <a href="Practice Project 1m.html">About Us</a>   |
+                <a href="Practice Project 1n.html">Catalogue</a>  |
+                <a href="Practice Project 1o.html">Contact Us</a> |  
+                <a href="Practice Project 1p.html">Customer Feedback</a>  |
+                <a href="Practice Project 1q.html">Order Page</a> 
+            </nav>
+        </header>
+        <main>
+            <h2>Product Catalogue</h2>
+            <ul>
+                <li>
+                    <img src="Images/carbeen vanilla.jpg" alt="carbeen vanilla" height="400" width="400"><br><br>
+                    <sub><b>Carbeen Vanilla</b></sub><br>
+                    <sub>Price: #4000</sub><br>
+                    <p>A warm, sweet vanilla fragrance that adds a touch of elegance to your everyday style.<br> 
+                        Ideal for anyone who loves smelling sweet, cozy, and attractive.</p>
+                </li>
+                <li>
+                    <img src="Images/choco musk.jpg" alt="choco musk" height="400" width="400"><br><br>
+                    <sub><b>Choco Musk</b></sub><br>
+                    <sub>Price: #5000</sub><br>
+                    <p>A delicious blend of chocolatey sweetness and warm musk.<br> 
+                        Perfect for those who love rich, cozy, and irresistible gourmand fragrances.</p>
+                </li>
+                <li>
+                    <img src="Images/Element.jpg" alt="Element" height="400" width="400"><br><br>
+                    <sub><b>Element</b></sub><br>
+                    <sub>Price: #6000</sub><br>
+                    <p>A captivating fragrance with a refreshing, masculine touch.<br> 
+                        Perfect for the man who wants to smell fresh, confident, and unforgettable.</p>
+                </li>
+                <li>
+                    <img src="Images/Incidence.jpg" alt="Incidence" height="400" width="400"><br><br>
+                    <sub><b>Incidence</b></sub><br>
+                    <sub>Price: #8500</sub><br>
+                    <p>A bold and captivating fragrance that adds confidence and sophistication to your presence.<br> 
+                        Perfect for making a lasting impression wherever you go.</p>
+                </li>
+                <li>
+                    <img src="Images/mousuf vanilla.jpg" alt="Mousuf" height="400" width="400"><br><br>
+                    <sub><b>Mousuf Vanilla</b></sub><br>
+                    <sub>Price: #5500</sub><br><br>
+                    <p>A rich, sweet fragrance with a warm vanilla character.<br> 
+                        Perfect for anyone who loves a luxurious, inviting scent that makes every moment feel special.</p>
+                </li>
+                <li>
+                    <img src="Images/kalyy.jpg" alt="Kaly" height="400" width="400"><br><br>
+                    <sub><b>Kaly Vanilla</b></sub><br>
+                    <sub>Price: #8500</sub><br>
+                    <p>A sweet, creamy vanilla fragrance with a warm and comforting vibe.<br> 
+                        Perfect for lovers of soft, delicious scents that leave a lovely impression.</p>
+                </li>
+            </ul>
+            <table cellpadding="10" cellspacing="10" border="1">
+                <caption><b><i>Product availability</i></b></caption>
+                <tr><th>Product Name</th><th>Price</th><th>Availability</th></tr>
+                <tr><td>Choco Musk</td><td>#5000</td><td>Available</td></tr>
+                <tr><td>Element</td><td>#6000</td><td>Available</td></tr>
+                <tr><td>Incidence</td><td>#8500</td><td>Not Available</td></tr>
+                <tr><td>Kaly Vanilla</td><td>#8500</td><td>Available</td></tr>
+                <tr><td>Mousuf Vanilla</td><td>#5500</td><td>Available</td></tr>
+                <tr><td>Carbeen Vanilla</td><td>#4000</td><td>Not Available</td></tr>
+            </table>
+            <form>
+                <fieldset>
+                    <legend><i>Personal Details</i></legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Enter your full name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required><br><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required><br><br>
+                    <label for="address">Address:</label>
+                    <textarea name="address" id="address" placeholder="Enter your address" required></textarea><br>
+                </fieldset>
+                <fieldset>
+                    <legend><i>Order Details</i></legend>
+                    <label for="products">Product:</label>
+                    <select name="products" id="products" required>
+                        <option value="">Select Product</option>
+                        <option value="chocomusk">Choco Musk</option>
+                        <option value="carbeenvanilla">Carbeen Vanilla</option>
+                        <option value="mousufvanilla">Mousuf Vanilla</option>
+                        <option value="element">Element</option>
+                        <option value="Kalyvanilla">Kaly Vanilla</option>
+                        <option value="incidence">Incidence</option>
+                    </select>
+                    <label for="quantity">Quantity:</label>
+                    <select name="quantity" id="quantity" required>
+                        <option value="">Select Quantity</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select><br><br>
+                    <label for="payment">Payment Method:</label>
+                    <select name="payment" id="payment" required>
+                        <option value="">Select Payment Method</option>
+                        <option value="card">Card</option>
+                        <option value="banktransfer">Bank Transfer</option>
+                        <option value="paypal">PayPal</option>
+                    </select><br><br>
+                    <input type="submit" value="Place Order">
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+             <p><i>&copy; Fave Scents; Own your Aura</i></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Page</title>
+    </head>
+    <body>
+        <header>
+             <h1><b>FAVE SCENTS</b></h1>
+            <sub>Own your aura</sub>
+             <nav>
+                <a href="Practice Project 1l.html">Home</a>       |
+                <a href="Practice Project 1m.html">About Us</a>   |
+                <a href="Practice Project 1n.html">Catalogue</a>  |
+                <a href="Practice Project 1o.html">Contact Us</a> |  
+                <a href="Practice Project 1p.html">Customer Feedback</a>  |
+                <a href="Practice Project 1q.html">Order Page</a> 
+            </nav>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend><b><i>Customer's Details</i></b></legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Full Name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required><br><br>
+                    <label for="phonenumber">Phone Number:</label>
+                    <input type="tel" name="phonenumber" id="phonenumber" placeholder="Enter your phone number" required><br><br>
+                    <label for="deladdress">Delivery Address:</label>
+                    <input type="text" name="deladdress" id="deladdress" placeholder="Delivery Address" required><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend><b><i>Order Details</i></b></legend>
+                    <h3><b>Product Category:</b></h3>
+                    <input type="checkbox" name="perfume" id="perfume" value="perfume">
+                    <label for="perfume">Perfume</label><br>
+                    <input type="checkbox" name="perfumeoil" id="perfumeoil" value="perfumeoil">
+                    <label for="perfumeoil">Perfume Oil</label><br>
+                    <input type="checkbox" name="deodorant" id="deodorant" value="deodorant">
+                    <label for="deodorant">Deodorant</label><br>
+                    <input type="checkbox" name="rollon" id="rollon" value="rollon">
+                    <label for="rollon">Roll-On</label><br>
+                    <input type="checkbox" name="bodymist" id="bodymist" value="bodymist">
+                    <label for="bodymist">Body Mist</label><br>
+                    <input type="checkbox" name="bodyspray" id="bodyspray" value="bodyspray">
+                    <label for="bodyspray">Body Spray</label><br><br>
+                    <label for="product">Product:</label>
+                    <select name="product" id="product" required>
+                        <optgroup label="Select Product Category First">
+                            <option value="">Select Product</option>
+                        </optgroup>
+                        <optgroup label="Perfumes">
+                            <option value="chocomusk">Choco Musk</option>
+                            <option value="element">Element</option>
+                            <option value="incidence">Incidence</option>
+                            <option value="kalyvanilla">Kaly Vanilla</option>
+                            <option value="mousufvanilla">Mousuf Vanilla</option>
+                            <option value="carbeenvanilla">Carbeen Vanilla</option>
+                        </optgroup>
+                        <optgroup label="Perfume Oil">
+                            <option value="sugarbaby">Sugar Baby</option>
+                            <option value="coolwater">Cool Water</option>
+                            <option value="bluewater">Blue Water</option>
+                            <option value="coconutval">Coconut Vanilla</option>
+                        </optgroup>
+                        <optgroup label="Deodorants">
+                            <option value="dove">Dove</option>
+                            <option value="rexona">Rexona</option>
+                            <option value="nivea">Nivea</option>
+                        </optgroup>
+                        <optgroup label="Roll-Ons">
+                            <option value="24k">24k</option>
+                            <option value="nivea">Nivea</option>
+                            <option value="dove">Dove</option>
+                        </optgroup>
+                        <optgroup label="Body Mists">
+                            <option value="victoria">Victoria's Secret</option>
+                            <option value="valcrush">Vanilla Crush</option>
+                            <option value="waveplum">Wave Plum</option>
+                        </optgroup>
+                        <optgroup label="Body Sprays">
+                            <option value="karis">Karis</option>
+                            <option value="riggs">Riggs</option>
+                            <option value="lstorm">Lady Storm</option>
+                        </optgroup>
+                    </select><br><br> 
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" max="5" min="1" name="quantity" id="quantity" required><br><br>
+                    <label for="delivery">Delivery Option:</label>
+                    <select name="delivery" id="delivery" required>
+                        <option value="">Select Delivery Option</option>
+                        <option value="standard">Standard Delivery</option>
+                        <option value="express">Express Delivery</option>
+                        <option value="pickup">Store Pickup</option>
+                    </select><br><br>
+                    <label for="deliverydate">Preferred Delivery Date:</label>
+                    <input type="date" name="deliverydate" id="deliverydate" required><br><br>
+                    <label for="payment">Payment Method:</label>   
+                    <select name="payment" id="payment" required>
+                        <option value="">Select Payment Method</option>
+                        <option value="card">Card</option>
+                        <option value="banktransfer">Bank Transfer</option>
+                        <option value="paypal">PayPal</option>
+                    </select><br><br> 
+                    <label for="instruction">Special Delivery Instructions:</label>
+                    <textarea id="instruction" name="instruction" rows="3" cols="50" placeholder="Special delivery instructions"></textarea><br><br>
+                    <input type="checkbox" name="confirm" id="confirm" value="confirm" required>
+                    <label for="confirm">Confirm all details are correct</label><br><br>
+                    <button type="submit" name="Submit" id="Submit">Submit</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p><i>&copy; Fave Scents; Own your Aura</i></p>
+        </footer>
+    </body>
+</html>

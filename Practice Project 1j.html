@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admission Page</title>
+    </head>
+    <body>
+        <header>
+            <img src="Images/logo.jpg" alt="logo" height="50" width="50">
+            <h1><b>Osun State University</b></h1>
+            <nav>
+                <a href="Practice Project 1g.html">Home</a>
+                <a href="Practice Project 1h.html">About Us</a>
+                <a href="Practice Project 1i.html">Courses</a>
+                <a href="Practice Project 1j.html">Admission</a>
+                <a href="Practice Project 1k.html">Contacts</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Registration</h2>
+            <form>
+                <fieldset>
+                    <legend><i><b>Personal Details</b></i></legend>
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname" required><br><br>
+                    <label for="middlename">Middle Name</label>
+                    <input type="text" name="middlename" id="middlename" required><br><br>
+                    <label for="surname">Surname</label>
+                    <input type="text" name="surname" id="surname" required><br><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required><br><br>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" required><br><br>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob" required><br><br>
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" name="gender" id="male" value="male" required><label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female" required><label for="female">Female</label>
+                </fieldset>
+                <fieldset>
+                    <legend><i><b>Course Details</b></i></legend>
+                    <select name="courseofstudy" id="courseofstudy" required>
+                        <option value="">Select a Course</option>
+                        <option value="Accounting">Accounting</option>
+                        <option value="Agricultural Engineering">Agricultural Engineering</option>
+                        <option value="Anatomy">Anatomy</option>
+                        <option value="Biochemistry">Biochemistry</option>
+                        <option value="Chemical Engineering">Chemical Engineering</option>
+                        <option value="Chemistry">Chemistry</option>
+                        <option value="Civil Engineering">Civil Engineering</option>
+                        <option value="Electrical Engineering">Electrical Engineering</option>
+                        <option value="Medicine">Medicine</option>
+                        <option value="Mechanical Engineering">Mechanical Engineering</option>
+                        <option value="Law">Law</option>
+                        <option value="Theatre Art">Theatre Art</option>
+                        <option value="Yoruba">Yoruba</option>
+                        <option value="Zoology">Zoology</option>
+                    </select>
+                </fieldset>
+                <button type="submit" name="submit" id="submit" value="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p><i>&copy; 2026 Osun State University</i></p>
+        </footer>
+    </body>
+</html>

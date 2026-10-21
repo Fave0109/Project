@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer Feedback Page</title>
+    </head>
+    <body>
+        <header>
+            <h1><b>FAVE SCENTS</b></h1>
+            <sub>Own your aura</sub>
+             <nav>
+                <a href="Practice Project 1l.html">Home</a>       |
+                <a href="Practice Project 1m.html">About Us</a>   |
+                <a href="Practice Project 1n.html">Catalogue</a>  |
+                <a href="Practice Project 1o.html">Contact Us</a> |  
+                <a href="Practice Project 1p.html">Customer Feedback</a> |
+                <a href="Practice Project 1q.html">Order Page</a> 
+            </nav>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend><b><i>Customer Details</i></b></legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend><b><i>Customer Feedback</i></b></legend>
+                    <label for="howuh"><b>How did you hear about us?</b></label>
+                    <select id="howuh" name="howuh" required>
+                        <option value="">Select an option</option>
+                        <option value="whatsapp">WhatsApp</option>
+                        <option value="afriend">A Friend</option>
+                        <option value="tiktok">TikTok</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                    <label for="rating"><b>Rating:</b></label><br>
+                    <input type="radio" name="rating" id="1star" value="1"required><label for="1star">1 Star</label><br>
+                    <input type="radio" name="rating" id="2stars" value="2"><label for="2stars">2 Stars</label><br>
+                    <input type="radio" name="rating" id="3stars" value="3"><label for="3stars">3 Stars</label><br>
+                    <input type="radio" name="rating" id="4stars" value="4"><label for="4stars">4 Stars</label><br>
+                    <input type="radio" name="rating" id="5stars" value="5"><label for="5stars">5 Stars</label><br><br>
+                    <label for="productpurchased"><b>Product Purchased</b></label><br>
+                    <input type="checkbox" name="perfume" id="perfume" value="perfume">
+                    <label for="perfume">Perfume</label><br>
+                    <input type="checkbox" name="perfumeoil" id="perfumeoil" value="perfumeoil">
+                    <label for="perfumeoil">Perfume Oil</label><br>
+                    <input type="checkbox" name="deodorant" id="deodorant" value="deodorant">
+                    <label for="deodorant">Deodorant</label><br>
+                    <input type="checkbox" name="rollon" id="rollon" value="rollon">
+                    <label for="rollon">Roll-On</label><br>
+                    <input type="checkbox" name="bodymist" id="bodymist" value="bodymist">
+                    <label for="bodymist">Body Mist</label><br>
+                    <input type="checkbox" name="bodyspray" id="bodyspray" value="bodyspray">
+                    <label for="bodyspray">Body Spray</label><br><br>
+                    <label for="willurec"><b>Will You Recommend Us?</b></label><br>
+                    <input type="radio" name="willurec" id="yes" value="yes"required><label for="yes">Yes</label>
+                    <input type="radio" name="willurec" id="no" value="no"><label for="no">No</label><br><br>
+                    <label for="comment"><b>Comments:</b></label><br>
+                    <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+                </fieldset>
+                <input type="submit" value="Submit Feedback">
+            </form>
+        </main>
+        <footer>
+             <p><i>&copy; Fave Scents; Own your Aura</i></p>
+        </footer>
+    </body>
+</html>
